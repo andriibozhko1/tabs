@@ -1,2 +1,2 @@
 # Hi. :)
-## This is my tabs menu: https://andriibozhko1.github.io/tabs/
+## This is my tabs menu: https://andriibozhko1.github.io/tabs/dist/
