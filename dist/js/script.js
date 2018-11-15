@@ -1,10 +1,10 @@
 (function () {
-  const tabs = document.querySelectorAll('.tabs-container__item');
-  const mainBlock = document.querySelectorAll('.tabs-container__main-content');
+  const tabs = document.querySelectorAll('.TabsContainer__item');
+  const mainBlock = document.querySelectorAll('.TabsContainer__main-content');
   for (let i = 0; tabs[i]; i++) {
     tabs[i].addEventListener('click', () => {
       for (let j = 0; mainBlock[j]; j++) {
-        if (tabs[i].dataset.tabs == mainBlock[j].dataset.content) {
+        if (tabs[i].dataset.tab == mainBlock[j].dataset.content) {
           mainBlock[j].classList.remove('hide');
           tabs[j].classList.add('active');
         } else {

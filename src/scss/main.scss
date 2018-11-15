@@ -4,7 +4,7 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
-.tabs-container {
+.TabsContainer {
   &__header {
     border-bottom: 4px solid #007bff;
     height: 60px;
@@ -22,17 +22,18 @@
     cursor: pointer;
   }
   &__main-content {
-      height: 500px;
-      width: 100%;
-      font-size: 40px;
-      padding: 30px;
+    height: 500px;
+    width: 100%;
+    font-size: 40px;
+    padding: 30px;
   }
-}
-.active {
-  border: 3px solid #007bff;
-  border-bottom: 3px solid #007bff;
-  background: #007bff;
-  color: #fff;
+  
+  .active {
+    border: 3px solid #007bff;
+    border-bottom: 3px solid #007bff;
+    background: #007bff;
+    color: #fff;
+  }
 }
 .hide {
   display: none;

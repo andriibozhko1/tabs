@@ -4,11 +4,11 @@
   font-family: sans-serif;
   box-sizing: border-box; }
 
-.tabs-container__header {
+.TabsContainer__header {
   border-bottom: 4px solid #007bff;
   height: 60px; }
 
-.tabs-container__item {
+.TabsContainer__item {
   display: inline-block;
   color: #007bff;
   border: 3px solid #fff;
@@ -20,13 +20,13 @@
   font-size: 25px;
   cursor: pointer; }
 
-.tabs-container__main-content {
+.TabsContainer__main-content {
   height: 500px;
   width: 100%;
   font-size: 40px;
   padding: 30px; }
 
-.active {
+.TabsContainer .active {
   border: 3px solid #007bff;
   border-bottom: 3px solid #007bff;
   background: #007bff;
