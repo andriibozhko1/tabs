@@ -1,6 +1,6 @@
 (function () {
   const tabs = document.querySelectorAll('.TabsContainer__item');
-  const mainBlock = document.querySelectorAll('.TabsContainer__main-content');
+  const mainBlock = document.querySelectorAll('.TabsContainer__content');
   for (let i = 0; tabs[i]; i++) {
     tabs[i].addEventListener('click', () => {
       for (let j = 0; mainBlock[j]; j++) {
