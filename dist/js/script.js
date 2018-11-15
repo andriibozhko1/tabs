@@ -9,7 +9,7 @@ const tabs = document.querySelectorAll('.tabs-block');
           tabs[j].classList.remove("none");
           btn[j].style.border = '1px solid silver';
         } else {
-          tabs[j].className += " none";
+          tabs[j].classList.add("none");
           btn[j].style.border = 'none';
         }
       }
