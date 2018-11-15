@@ -5,32 +5,32 @@
   box-sizing: border-box; }
 
 .tabs-container__header {
-  border-bottom: 1px solid silver;
+  border-bottom: 4px solid #007bff;
   height: 60px; }
 
 .tabs-container__item {
-  display: inline-block; }
-
-.tabs-container__btn {
+  display: inline-block;
   color: #007bff;
-  padding: 17px;
-  font-size: 20px;
-  cursor: pointer;
-  margin-right: -4px;
+  border: 3px solid #fff;
+  border-bottom: 0px solid #007bff;
   background: #fff;
-  border: 0;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  outline: none; }
-  .tabs-container__btn:hover {
-    border: 1px solid silver;
-    top: 1px; }
+  padding: 12px;
+  font-size: 25px;
+  cursor: pointer; }
 
-.none {
-  display: none; }
-
-.tabs-block {
+.tabs-container__main-content {
   height: 500px;
   width: 100%;
-  font-size: 20px;
+  font-size: 40px;
   padding: 30px; }
+
+.active {
+  border: 3px solid #007bff;
+  border-bottom: 3px solid #007bff;
+  background: #007bff;
+  color: #fff; }
+
+.hide {
+  display: none; }
